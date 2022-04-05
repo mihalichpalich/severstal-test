@@ -1,8 +1,18 @@
 import React from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
+import {Layout} from 'antd';
+
+import AppHeader from './components/AppHeader/AppHeader';
+import AppRouter from './routes/AppRouter/AppRouter';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <Router>
+      <Layout>
+        <AppHeader/>
+        <AppRouter/>
+      </Layout>
+    </Router>
   );
 }
 

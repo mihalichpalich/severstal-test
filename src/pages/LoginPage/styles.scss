@@ -1,0 +1,13 @@
+.login-page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__button {
+    height: 5vh;
+    width: 7vw;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
